@@ -13,7 +13,7 @@
 <h2>Usuarios registrados</h2>
 <ul>
 @for (user of users; track user.id) {
-    <li>{{ user.name }}</li>
+    <li (mouseover)="onMouseOver(user.name)">{{ user.name }}</li>
   }
 </ul>  
 <div class="editable-div"  [contentEditable]="isEditable"></div>
