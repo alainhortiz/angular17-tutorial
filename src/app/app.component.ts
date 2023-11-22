@@ -11,5 +11,6 @@ import { UserComponent } from './components/user/user.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  userOcuppation: string = 'Devolper';
   city: string = 'Cuba';
 }
